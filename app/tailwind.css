@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Super Dream';
+    src: url('/fonts/SuperDream.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LT Funk';
+    src: url('/fonts/LTFunk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+.logo-type {
+    font-family: 'Super Dream';
+    font-weight: normal;
+    font-style: normal;
+}
